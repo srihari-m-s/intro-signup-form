@@ -1,0 +1,52 @@
+@use "../util" as *;
+
+.input-container {
+  position: relative;
+}
+
+.form__input {
+  width: 100%;
+  padding: 1em;
+
+  font-family: $font;
+  //   font-size: 1rem;
+  font-weight: 700;
+
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+
+  transition: border-color 0.2s ease-in-out;
+
+  &:focus,
+  &:hover {
+    outline: none;
+    border-color: var(--accent-blue);
+  }
+
+  &.error-color {
+    border: 2px solid var(--primary-red);
+  }
+
+  @media (min-width: 900px) {
+    padding-inline: 1.5em;
+    margin-top: 0.5em;
+  }
+}
+
+.error-icon {
+  display: none;
+
+  position: absolute;
+  right: 30px;
+  top: 17px;
+}
+
+.error {
+  display: none;
+
+  margin-block: 0.5em;
+  color: var(--primary-red);
+  font-family: $font;
+  font-size: 0.75rem;
+  text-align: right;
+}

@@ -1,0 +1,32 @@
+@use "../util" as *;
+
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("/src/assets/bg-intro-mobile.png");
+  background-color: var(--primary-red);
+  color: var(--text-white);
+  font-family: $font;
+
+  @media (min-width: 900px) {
+    background-image: url("/src/assets/bg-intro-desktop.png");
+  }
+}
+
+#root {
+  min-height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

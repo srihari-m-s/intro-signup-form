@@ -1,0 +1,19 @@
+@use "../util" as *;
+
+.submit__button {
+  background-color: var(--primary-green);
+  color: var(--text-white);
+
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  box-shadow: 0px -4px rgba(0, 0, 0, 0.1) inset;
+  padding: 1em 0;
+
+  font-size: 1rem;
+  font-family: $font;
+  letter-spacing: 0.0625ch;
+  text-transform: uppercase;
+
+  cursor: pointer;
+}
