@@ -28,12 +28,26 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+## Desktop
+
+![Desktop screenshot](https://github.com/srihari-m-s/intro-signup-form/blob/master/public/screenshots/desktop.jpg?raw=true)
+
+## Empty Error
+
+![Fields empty error screenshot](https://github.com/srihari-m-s/intro-signup-form/blob/master/public/screenshots/empty-errors.jpg?raw=true)
+
+## Email error
+
+![Email error screenshot](https://github.com/srihari-m-s/intro-signup-form/blob/master/public/screenshots/email-error.jpg?raw=true)
+
+## Mobile
+
+![Mobile screenshot](https://github.com/srihari-m-s/intro-signup-form/blob/master/public/screenshots/mobile.jpg?raw=true)
 
 ### Links
 
-- [Solution](https://your-solution-url.com)
-- [Live Site](https://your-live-site-url.com)
+- [Solution](https://www.frontendmentor.io/solutions/mobilefirst-react-solution-to-into-component-with-signup-form-vFi4vRdfh_)
+- [Live Site](https://srihari-m-s.github.io/intro-signup-form/)
 
 ## My process
 
