@@ -28,19 +28,19 @@ Users should be able to:
 
 ### Screenshot
 
-## Desktop
+#### Desktop
 
 ![Desktop screenshot](https://github.com/srihari-m-s/intro-signup-form/blob/master/public/screenshots/desktop.jpg?raw=true)
 
-## Empty Error
+#### Empty Error
 
 ![Fields empty error screenshot](https://github.com/srihari-m-s/intro-signup-form/blob/master/public/screenshots/empty-errors.jpg?raw=true)
 
-## Email error
+#### Email error
 
 ![Email error screenshot](https://github.com/srihari-m-s/intro-signup-form/blob/master/public/screenshots/email-error.jpg?raw=true)
 
-## Mobile
+#### Mobile
 
 ![Mobile screenshot](https://github.com/srihari-m-s/intro-signup-form/blob/master/public/screenshots/mobile.jpg?raw=true)
 
